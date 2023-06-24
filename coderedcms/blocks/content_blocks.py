@@ -150,10 +150,6 @@ class NavBaseLinkBlock(BaseBlock):
         max_length=255,
         label=_("Display text"),
     )
-    image = ImageChooserBlock(
-        required=False,
-        label=_("Image"),
-    )
 
 
 class NavExternalLinkBlock(NavBaseLinkBlock):
